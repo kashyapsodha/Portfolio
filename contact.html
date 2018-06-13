@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js"></script>
+</head>
+<body id="contact-page">
+    <div class="container">
+        <header class="header">
+            <a class="link-title" href="/">My Portfolio</a>
+        </header>
+        <nav class="menu">
+            <a href="/">Home</a> &nbsp;&nbsp;&nbsp;
+            <a href="about.html">About Me</a> &nbsp;&nbsp;&nbsp;
+            <a href="contact.html">Contact</a>
+        </nav>
+        
+<!--
+        <aside>
+            <h1>Side Bar</h1>
+        </aside>
+-->
+        
+        <article class="main">
+<!--            <img src="http://placehold.it/300x200" alt="">-->
+            <h1 class="page-heading">Contact</h1>
+            <div id="form">
+                <form method="post" action="process.php">
+                    <p>
+                    <label for="name">Name*</label>
+                    <input type="text" name="name" placeholder="Enter Name" required>
+                    </p>
+                    <p>
+                    <label for="email">Email*</label>
+                    <input type="text" name="email" placeholder="Enter Email" required>
+                    </p>
+                    <p>
+                    <label for="subject">Subject*</label>
+                    <input type="text" name="subject" placeholder="Enter Subject" required>
+                    </p>
+                    <p>
+                    <label for="message"></label>
+                    <textarea name="message" id="message" cols="30" rows="10" placeholder="Enter Message" required></textarea>
+                    </p>
+                    <p>
+                        <input id="submit" type="submit" name="submit" value="Send Message">
+                    </p>
+                    <p><b>Note:</b> Fields marked with (*) are mandatory.</p>
+                    <p>Or</p>
+                    <p>Phone: +1 (657) 445-8893</p>
+                    <p>Email: ksodha93@gmail.com</p>
+                </form>
+            </div>
+        </article>
+        <footer>
+            &copy; 2018 My Portfolio &nbsp;<span class="seperator">|</span>Designed by Kashyap Sodha 
+            <a id = "link-redirect" href="https://www.linkedin.com/in/kashyap-sodha/">LinkedIn</a> 
+            <a id = "link-redirect" href="https://github.com/kashyapsodha">GitHub</a>
+        </footer>
+    </div>
+</body>
+</html>
